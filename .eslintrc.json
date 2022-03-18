@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "findPayments": "error", // for custom rules
+        "find-fixme": "error", // custom rule for comment
+        //"find-fixme": ["error", "fixme", "todo"], // custom rule for comment, another way
+        "functionParams": "error",
+        "no-console": "error",
+        "consistent-return": "error",
+        "no-unused-vars": "off",
+        "indent": [
+            "warn", // or make it off, error
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
