@@ -7,7 +7,9 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": ["promise"],
     "rules": {
+        "promise/catch-or-return": "error",
         "findPayments": "error", // for custom rules
         "find-fixme": "error", // custom rule for comment
         //"find-fixme": ["error", "fixme", "todo"], // custom rule for comment, another way
